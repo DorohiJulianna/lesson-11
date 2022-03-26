@@ -1,0 +1,85 @@
+ @import "null.css"; 
+ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@400;700;900&display=swap');
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "Roboto";
+	
+}
+.nemo__conteiner {
+	max-width: 1020px;
+	min-height: 700px;
+	margin: 0 auto;
+	background-color:#5D62B5;
+	position: relative;
+	margin-top: -65px;
+	padding: 100px 87px 0 87px;
+	border-radius: 40px;
+}
+.nemo__block-header {
+}
+.header-block {
+	max-width: 583px;
+}
+.header-block__subtitle {
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 2;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	color: #F5F5F5;
+	position: relative;
+	padding: 0 0 0 32px;
+	margin: 0 0 33px 0;
+}
+.header-block__subtitle::before
+{
+	content: "";
+	width: 28px;
+	height: 27px;
+	background: url("../img/Mark.svg");
+	position: absolute;
+	top: -2px;
+	left: 0;
+
+}
+
+
+.header-block__title {
+	color: #FFFFFF;
+	font-size:36px ;
+	line-height: 42px;
+	font-weight: 900;
+	margin: 0 0 36px 0;
+
+}
+.nemo__bobble {
+	position: absolute;
+	top: -114px;
+	right: -12px;
+}
+.nemo__text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+	position: relative;
+}
+.nemo__blob {
+	position: absolute;
+	top: -20px;
+	left: -100px;
+}
+.footer {
+	max-width: 846px;
+	margin: 0 auto;
+	margin-top: -300px;
+	position: relative;
+	z-index: 1;
+
+}
+.footer__dog {
+	border-radius: 40px;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+	
+}
